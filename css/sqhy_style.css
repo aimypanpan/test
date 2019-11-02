@@ -1,0 +1,49 @@
+/* 领取奖品 20191011 wcy start */
+.prize_page{width: 100%;}
+.prize_page .wx_banner{width: 100%;height: 4.6rem;margin-bottom: .22rem;}
+.prize_page .nav_box{width: 100%;margin-bottom: .22rem;padding: .32rem 0;background: #fff;border-top: .03rem solid #E0E0E0;border-bottom: .03rem solid #E0E0E0;}
+.prize_page .nav_box .item_box{width: 33.33%;text-align: center;}
+.prize_page .nav_box .item_box .nav_img{width: .9rem;margin: 0 auto;}
+.prize_page .nav_box .item_box .tip_word{margin-top: .2rem;color: #333;font-size: .24rem;}
+.prize_page .prize_box .prize_item{width: 100%;background: #fff;padding: .24rem;border-bottom: .03rem solid #E0E0E0;}
+.prize_page .prize_box .prize_item:first-child{border-top: .03rem solid #E0E0E0;}
+.prize_page .prize_item .prize_img{width: 2.2rem;height: 1.66rem;margin-right: .22rem;}
+.prize_page .prize_item .prize_tip{width:65%;color: #333;font-size: .28rem;line-height: .46rem;}
+.prize_page .prize_item .prize_tip .title{width:100%;font-size: .3rem;}
+.prize_page .prize_item .prize_tip .tip{width:100%;font-size: .26rem;}
+.prize_page .prize_item .prize_tip .tip .light_num{color: #FF6D0A;}
+.prize_page .prize_item .prize_tip .btn{width:2.6rem;height: .6rem;background: #4594FD;text-align: center;line-height: .6rem;color: #fff;margin-top: .14rem;font-size: .26rem;}
+.prize_page .remark_box{width: 100%;font-size: .26rem;color: #FF6D0A;padding: 0 .24rem;margin-top: .2rem;line-height: .5rem;}
+/* 领取奖品 20191011 wcy end */
+
+/* 资格查询 20191011 wcy start */
+.people_page{width: 100%;}
+.people_page .people_box{width: 100%;padding: .24rem;}
+.people_page .people_box .people_item{width: 3.4rem;background: #fff;padding: .34rem .24rem;border: .03rem solid #E3E3E3;line-height: .38rem;height: 4.16rem;margin-bottom: .2rem;margin-right: .2rem;}
+.people_page .people_box .people_item:nth-last-child(2n){margin-right: 0;}
+.people_item .head_img{width: 1.3rem;height: 1.3rem;border-radius: 50%;margin: .32rem auto;}
+.people_item .people_name{width: 100%;font-size: .3rem;color: #1369c0;margin-bottom: .22rem;}
+.people_item .join_time{width: 100%;font-size: .22rem;color: #1c1c1c;background-image: ;}
+.people_item .join_time .line{color: #1c1c1c;}
+.people_item .com_tip{color: #666;font-size: .22rem;}
+/* 资格查询 20191011 wcy end */
+
+/* 活动详细 20191011 wcy start */
+
+.detail_page{width: 100%;padding-top: .2rem;}
+.detail_page .detail_title:first-of-type{margin-top: 0;}
+.detail_page .detail_title{width: 100%;height: 1rem;line-height: 1rem;font-size: .3rem;color: #333;border-bottom: 1px solid #c1c1c1;border-top: 1px solid #c1c1c1;padding-left: .24rem;font-weight: 600;background: #fff;letter-spacing: .02rem;margin-top: .2rem;}
+.detail_page .content_box{width: 100%;padding: .26rem .24rem;background: #fff;font-size: .28rem;color: #333;}
+.detail_page .content_box .rule_intro{line-height: .6rem;}
+.detail_page .table_box{width: 100%;font-size: .26rem;color: #333;}
+.detail_page .table_box td,
+.detail_page .table_box th{border: 1px solid #c1c1c1;line-height: .6rem;}
+.detail_page .table_box th{background: #EFEFEF;}
+.detail_page .table_box td{text-align: center;}
+.detail_page .table_box tr:last-child td{color: #FF6D0A;text-align: left;padding-left: .1rem;}
+.detail_page .link_tip{line-height: .6rem;width: 100%;font-size: .26rem;margin-top: .2rem;}
+.detail_page .btn_box{width: 100%;position: fixed;bottom: 0;left: 0;}
+.detail_page .btn_box .btn{width: 50%;font-size: .34rem;color: #fff;height: .98rem;line-height: .98rem;}
+.detail_page .btn_box .btn.reg_btn{background-color: #FF6D0A;}
+.detail_page .btn_box .btn.intro_btn{background-color: #4594FD;}
+/* 活动详细 20191011 wcy end */

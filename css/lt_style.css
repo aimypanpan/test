@@ -1,0 +1,69 @@
+/* 首页 20190916 wcy start */
+.index_page{width: 100%;background: #F2F2F2;position: relative;}
+.index_page .index_banner{width: 100%;height: 3.06rem;position: fixed;top: 0;left: 0;}
+
+.index_page .no_bind_pic{width: 3.98rem;height: 3.44rem;position: absolute;top: 50%;left: 50%;margin-left: -1.99rem;margin-top: -1.72rem;}
+.index_page .index_user_btn{width: 4.88rem;height: .98rem;position: fixed;bottom: 1.6rem;left: 50%;margin-left: -2.44rem;}
+
+.index_page .bind_user_box{width: 100%;min-width: 2rem; padding-top: .32rem;overflow-y: auto;}
+
+.index_page .user_info_item{width: 7rem;min-height: 2.8rem;margin: 0 auto .32rem;background-repeat: no-repeat;background-size: 100% 100%;background-position: center center;padding: .2rem .32rem;font-size: .26rem;color: #fff;line-height: .34rem;}
+.index_page .user_info_item .line_item{padding: .12rem 0;}
+.index_page .user_info_item .line_item .tip_name{font-size: .3rem;}
+.index_page .user_info_item .top_line_item{padding: .16rem 0;border-bottom: .02rem dotted #AFCED0;line-height: .36rem;}
+.index_page .user_info_item .top_line_item .tip_name{font-weight: 500;}
+
+
+/* 首页 20190916 wcy end */
+
+/* 用户绑定 20190917 wcy start */
+.bind_page{width: 100%;overflow: hidden;padding-top: .32rem}
+.bind_page .input_box{width: 7rem;height: .9rem;color: #333;font-size: .3rem;text-align: center;margin: 0 auto .22rem;background-color: #fff;border-radius: .12rem;line-height: .9rem;;}
+.bind_page .input_box .com_input{width: 5rem;height: .7rem;border: none;margin: 0;font-size: .28rem;color: #333;text-align: right;}
+.bind_page .input_box .input_tip{font-size: .3rem;color: #333;}
+
+.com_btn{width: 7rem;height: .9rem;color: #fff;font-size: .36rem;line-height: .9rem;text-align: center;margin: .66rem auto 0;background-color: #4882FF;border-radius: .12rem;}
+.pop_box{width: 100%;height: 100%;background-color: rgba(0, 0, 0, .5);position: fixed;top: 0;left: 0;}
+.pop_box .pop_center_box{width: 6.7rem;height: 8.22rem;position: absolute;top: 50%;left: 50%;margin-left: -3.35rem;margin-top: -4.11rem;background-position: center center;background-repeat: no-repeat;background-size: 100% 100%;background-image: url(../img/lt/pop_bg_fail.png);}
+.pop_box .pop_center_box .op_btn{width: 4.8rem;height: .9rem;position: absolute;bottom: .8rem;left: 50%;margin-left: -2.4rem; }
+.pop_box .pop_fail_box{background-image: url(../img/lt/pop_bg_fail.png);}
+.pop_box .pop_success_box{background-image: url(../img/lt/pop_bg_success.png);}
+/* 用户绑定 20190917 wcy end */
+
+/* 用户详情 20190917 wcy start */
+.detail_page .detail_banner{width: 100%;height: 4.03rem;position: fixed;top: 0;left: 0;}
+.detail_page .user_name{width: 100%;position: relative; z-index: 99;text-align: center;font-size: .36rem;color: #fff;line-height: .36rem;top:.9rem;}
+.detail_page .user_num{width: 100%;position: relative; z-index: 99;text-align: center;font-size: .36rem;color: #fff;line-height: .36rem;top: 1.1rem;}
+.detail_page .detail_box{width: 7rem;min-height: 4.9rem;background-position: center center;background-repeat: no-repeat;background-size: 100% 100%;background-image: url(../img/lt/user_detail_bg.png);margin: 1.7rem auto .24rem;z-index: 99;position: relative;padding: .9rem .32rem .32rem;}
+.detail_page .detail_box .line_item{width: 100%;line-height: .66rem;}
+.detail_page .detail_box .line_item .tip_name{color: #333;font-size: .3rem;}
+.detail_page .detail_box .line_item .detail_info{color: #999;font-size: .26rem;}
+.detail_page .show_log_btn{width: 7rem;height: .9rem;display: block;margin: .52rem auto .32rem;}
+.detail_page .unbind_btn{width: 7rem;height: .9rem;display: block;margin: 0 auto .32rem;}
+
+/* 用户详情 20190917 wcy end */
+
+/* 缴费列表 20190917 wcy start */
+.log_list_page .date_box{width:100%;height: 1rem;border-bottom: 1px solid #999;background-color: #fff;text-align: center;line-height: 1rem;font-size: .3rem;}
+.log_list_page .list_item{width: 7rem;height: auto;padding: .32rem;background-color: #fff;border-radius: .12rem;margin: .24rem auto;}
+.log_list_page .list_item .item_left{width: 70%;font-size: .3rem;color: #333;line-height: .56rem;}
+.log_list_page .list_item .item_left .tip_name{width: 40%;}
+.log_list_page .list_item .item_left .detail_info{width: 60%;color: #999;}
+.log_list_page .list_item .item_left .detail_info.status{color: #4982FF;}
+.log_list_page .list_item .item_left .detail_info.status.none{color: #FF0000;}
+.log_list_page .list_item .item_right{width: 20%;text-align: center;margin-top: .2rem;}
+.log_list_page .list_item .item_right img{width: 1.2rem;height: 1.67rem;}
+/* 缴费列表 20190917 wcy end */
+
+/* 缴费详情 20190917 wcy start */
+.log_detail_page .input_box_end{padding: 0 .22rem .2rem;height: auto;}
+.log_detail_page .input_box_end .btn_box{padding: 0 1.2rem;}
+.log_detail_page .input_box_end .btn_box .btn_img{width: .96rem;height: .96rem;}
+.log_detail_page .input_box_end .btn_box .btn_tip{font-size: .26rem;color: #4882FF;line-height: .66rem;}
+.make_status{color: #4982FF;font-size: .28rem;}
+.make_status.none{color: #FF0000;}
+.log_detail_page .pop_code{width: 6.8rem;height: 8rem;background-color: #fff;border-radius: .2rem;position: absolute;top: 50%;left: 50%;margin-top: -4rem;margin-left: -3.4rem;padding: .52rem 0;}
+.log_detail_page .pop_code .code_img{width: 4.6rem;height: 4.6rem;position: absolute;top: 50%;left: 50%;margin-top: -2.6rem;margin-left: -2.3rem;}
+.log_detail_page .pop_code .code_tip{width: 6rem;font-size: .32rem;color: #999;text-align: center;position: absolute;bottom: 1rem;left: 50%;margin-left: -3rem;}
+
+/* 缴费详情 20190917 wcy end */
